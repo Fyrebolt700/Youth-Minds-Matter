@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <!-- To check where table is (delete after)-->
+        <style>
+            table, th, td {
+              
+              height: 300px; 
+              border-collapse: collapse;
+            }
+
+            th, td {
+            padding: 10px; 
+            border: 0px solid #97e290; 
+        }
+            .about {
+            margin: 0 auto;
+            width: 80%;
+           
+        }
+       .div-with-bg {
+            /*background-image: url("bg-7-full.jpg"); /* The image used */
+            background-color: #97e290; /* Used if the image is unavailable */
+            height: 1000px; /* You must set a specified height */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: cover; /* Resize the background image to cover the entire container */
+        }
+
+       .article-with-bg{
+            background-color: rgb(3, 49, 21); /* Used if the image is unavailable */
+           
+            background-size: cover; /* Resize the background image to cover the entire container */
+            
+       } 
+       .article-with-bg h2 {
+                 padding: 10px; 
+                color: #97e290;
+        }
+
+        .article-with-bg p {
+                 padding: 10px; 
+                color: #97e290;
+        }
+
+        .article-with-bg h5 a {
+                 padding: 10px; 
+                color: rgb(22, 3, 3);
+            } 
+    </style>
+
+    <link rel="stylesheet" href="health-style.css">
+     <title>Youth Minds Matter</title>
+    </Head>
+
+    <!--contains all nav bar links-->
+    <body>
+            <h1 id = "title">Youth Minds Matter</h1>
+            <h3>Empowering mental health in learning environments </h3>
+        
+        <section class = "navBarTabs">
+            <div class = "tabsContainer">
+                <a class = "tabs" href = "#tab-abt">About</a>
+                <a class = "tabs" href = "#tab-vid">Video</a>
+                <a class = "tabs" href = "#tab-article">Articles</a>
+                <a class = "tabs" href = "#tab-re">Resources</a>
+            </div>
+        </section>
+    
+    <div class="div-with-bg">
+        <!--All the sections from the nav bar-->
+        <section class = "about" id = "tab-abt">
+            <div>
+            <table  >
+                <tr>
+                <td width="400px">
+                    <img src = https://d2jx2rerrg6sh3.cloudfront.net/images/Article_Images/ImageForArticle_22028_16430272124432966.jpg width = "400px">
+                </td>
+                <td width="400px">
+                    <p>Youth Minds matter is a project created by youth for youth - a space designed for both students and parents to explore the topic of mental health. Here, you’ll find valuable tips, professional resources and discover community support to help you or your kid in navigating the world of learning with a positive mindset.
+                </p></td>
+              </tr>
+            </table>
+            </div>
+        </section>
+
+        <section class = "vid" id = "tab-vid">
+            <h2>What is Mental Health?</h2>
+            <p>Mental health, in simple terms, is about your long-term feelings and thoughts, how you handle stress, and your ability to connect with others. It’s about the capacity to navigate life’s ups and downs while still having a positive self-image and outlook on life.
+            </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/G0zJGDokyWQ?si=EJogmodEW8Qxp1Lg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+    </div>
+        <main>
+            <div  class ="article-with-bg">
+            <section id = "tab-article">
+                <h2 >Articles</h2>
+                <table>
+                    <tr>
+                        <th bgcolor="#FF7F50">
+                            <img src = https://news.yale.edu/sites/default/files/styles/opengraph_image/public/yalenews_57735773-cc.jpg?itok=BPL8H2VD width = "200px">
+                            <h5><a href = "article1.html">The invisible battle: How mental Health affects High school students</a></h5>
+                        </th>
+                        <th></th>
+                        <th bgcolor="#97e290">
+                            <img src = https://www.teenrehab.org/wp-content/uploads/2019/09/Counselor_vs_Therapist_Hero_1170x712.jpg width = "200px">
+                            <h5><a href = "article2.html">Finding the Right Help: Types of Professional Support</a>
+                            </h5>
+                        </th>
+                        <th></th>
+                        <th bgcolor="#FF7F50">
+                            <img src = https://www.uhhospitals.org/-/media/Images/Blog/WEB-1101402-Parent-child-720x450.jpg?h=450&w=720&la=en&hash=0EE3507860CE15608C4264DDF9FF4E838C548CAB width = "200px">
+                            <h5><a href = "article3.html">Parents’ Guide to supporting Teens’ Mental Well-being</a></h5>
+                        </th>
+                        <th></th>
+                    </tr>
+                    <tr></tr>
+                </table>
+            </section>
+        
+            <section id = "tab-re">
+                <h2>Resources</h2>
+                <p><b>24 Hour Distress Line:</b>
+                    Website: <a href = "https://www.distresscentre.com/">https://www.distresscentre.com/</a><br>
+                    Call/Text Line: 403-266-HELP (4357)
+                </p>
+
+                <p><b>Canadian Mental Health Association (CMHA):</b>
+                    Website: <a href = "https://cmha.calgary.ab.ca/">https://cmha.calgary.ab.ca/</a><br>
+                    Call Line: 403-297-1700
+                </p>
+
+                <p><b>Addiction HelpLine:</b>
+                    Call Line: 1-866-332-2322
+                </p>
+
+                <p><b>Wellness Together:</b>
+                <a href = "https://www.wellnesstogether.ca/en-ca/">https://www.wellnesstogether.ca/en-ca/</a>
+                    App: PocketWell
+                </p>
+            </section>
+        </div>
+        </main>
+    </body>
+</html>
